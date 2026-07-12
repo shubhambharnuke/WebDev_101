@@ -1,0 +1,40 @@
+<HEAD ELEMENTS>
+    META TAGS:-
+        1.<meta charset="UTF-8">: This tag specifies the character encoding for the HTML document. UTF-8 is a widely used encoding that supports many characters from different languages. 
+        2.<meta name="description" content="this page contains info about the elements of html web page">: This tag is used to control the layout on mobile browsers. It sets the width of the viewport to the width of the device and sets the initial zoom level to 1.0, ensuring that the webpage is responsive and displays correctly on different screen sizes.
+    FAV ICON:-
+        1.<link rel="icon" href="favicon.ico" type="image/x-icon">: This tag is used to specify the favicon for the webpage. The favicon is a small icon that appears in the browser tab next to the page title. It helps users identify the website easily when they have multiple tabs open.
+    external css addition:-
+        1.<link rel="stylesheet" href="style.css">: This tag is used to link an external CSS file to the HTML document. The "href" attribute specifies the path to the CSS file, allowing the webpage to apply styles defined in that file. This helps in maintaining a consistent look and feel across multiple pages of a website.
+</HEAD>  
+<TEXT BASICS>
+    HEADINGS:-
+        1.<h1> to <h6>: These tags are used to define headings in HTML. <h1> represents the highest level of heading, while <h6> represents the lowest level. Headings are important for structuring content and improving accessibility.
+    PARAGRAPHS:-   
+        1.<p>: This tag is used to define a paragraph of text. It automatically adds some space before and after the paragraph, making the content more readable. Paragraphs are essential for organizing text into manageable sections.    
+    HORIZONTAL LINE :-
+        1.<hr>: This tag is used to create a horizontal line or divider in the webpage. It is often used to separate content or sections visually. The <hr> tag does not require a closing tag and can be styled using CSS for different appearances.
+    LINE BREAK:-
+        1.<br>: This tag is used to create a line break within text, forcing the content that follows to start on a new line. It is an empty tag, meaning it does not have a closing tag. The <br> tag is useful for formatting text where a new line is needed without starting a new paragraph.
+    
+    BLOCK ELEMENTS:-
+        takes the whole line 
+    INLINE ELEMENTS:-
+        doesnt take the whole line
+    HTML ENTITIES:-
+        1.&nbsp; creates space
+        2.&lt; less than symbol
+        3.&gt; greater than symbol
+        4.&copy; copyright symbol
+    ABRIVIATION:
+        <abbr title="title name"> text </abbr>
+    ADDRESS
+        <ADDRess> add your address here</ADDRess>
+</TEXT>
+
+<LISTS>
+    ORDERED LIST:-
+        <ol>
+            <li></li>
+        </ol>
+</LISTS>
