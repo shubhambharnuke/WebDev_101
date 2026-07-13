@@ -37,4 +37,30 @@
         <ol>
             <li></li>
         </ol>
+    UNORDERED LIST:-
+        <ul>
+            <li></li>
+        </ul>
+    
 </LISTS>
+
+<links>
+    <a href="the link to the web page">name to display on webpage</a>
+        takes to the link 
+    <a href="/html/README.md">readme file</a>
+        takes to the webpage 
+    <a href="#section id">text</a> 
+        scrool to that part of the page
+    <a href="#">go to top</a>
+        scrols to top of the page
+    <a href="image.png" download>want the fav icon?</a>
+        downloads the fav icon
+    <a href="mailto:random@gmail.com">mail</a>
+        makes mails
+    <a href="tel:+1234567890">my phone number</a>
+        makes calls
+    <a href="https://www.google.com/"target="_blank>">open in new tab</a>
+        opens link in new tab
+    <a href="/">go to root page</a>
+        opens the main web page
+</links>
