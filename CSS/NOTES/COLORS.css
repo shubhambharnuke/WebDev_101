@@ -1,0 +1,15 @@
+p{
+    /* NAMES: */
+        color: papayawhip;
+    /* rgb  */
+        color: rgb(0,0,0);
+    /* rgba  */
+        color: rgba(0,0,0,0.5);         /*alpha:determines the transparency of the color */
+    /* hexadecimal  */
+        color: #000;
+        color: #fff;
+        color: #0000ff;
+        color: #00ffff;
+    /* hsl hue-saturation-lightness  */
+        color: hsl(0, 50%, 50%);
+}

@@ -1,0 +1,37 @@
+/* SELECTORS: */
+    /* universal  */
+        * {
+            font-size: 22px;
+        }
+    /* element: */
+        body{
+            font-size: 22px;
+        }
+        h1,h2 {
+            color: navy;
+        }
+        p{
+            color: grey;
+        }
+
+        p span {                       /*span which is inside p (nesting)*/
+            background-color: gold;
+            text-transform: uppercase;
+        }
+    /* class */
+        .gray {
+             color: gray ;           /*<p class="gray">...</p>   */
+        }
+    /* id  */
+        #second {
+            font-smooth: italic;        /*<p id="second" class="gray">...</p>   */
+        }
+
+/* inheritance:
+    inherits from parent 
+    form elements do not inherit from parent class */
+    
+/* NOTE:
+    1.avoid using id selectors in css, go for class selector >>element >>id
+    2.css executes from top to bottom
+    3.css gives preference to specificity */
