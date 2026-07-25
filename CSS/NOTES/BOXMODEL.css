@@ -1,0 +1,30 @@
+p {
+    /*USE THIS CSS-RESET in universal element*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+    } 
+
+    /* MARGIN */
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2rem;
+        margin-right:2rem ;
+        /* instead of the above us this:- */
+        margin: 1.5rem 2em 2em ;    /*top-right-left-bottom*/
+        margin: 1.5rem 2em;         /*(top/bottom)-(left/right) */
+        margin: 1.5rem ;            /*all margins same*/
+    /* PADDING */
+        padding: 1.5em;
+    /* BORDER */
+        border: 2px dashed red;
+        border-top: 5px solid;
+        border-right: 5px yellow dotted;
+        border-left: 5px blue dotted;
+        border-bottom: 5px red double;
+    /* OUTLINE */
+        outline: 5px double navy;
+        outline-offset: -20px;
+
+}

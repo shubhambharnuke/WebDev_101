@@ -1,0 +1,34 @@
+/* standard settings 
+initially:
+    1.underlined
+    2.blue
+visited:
+    1.purple
+pointed:
+    1.HAND COMES
+click and hold:
+    1.RED           */
+/* visited hover active have same preference
+so use in the sequence of v-h-a  */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a:visited {
+    color:grey;
+
+}
+
+a:hover {
+    opacity: 0.7;
+    /* or */
+    color:hsl(30, 0%, 0%) ;  /*change the 1st number  */
+    background-color: hsl(100, 0%, 100%);
+}
+
+a:active {
+    color: blanchedalmond;
+}
