@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 2rem auto 0 auto;
+    border-radius: 2rem;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+nav{
+    text-align: center;
+    background-color: grey;
+    border-radius: 2rem 2rem 0 0;
+    
+}
+h1{
+    background-color: blanchedalmond;
+    border-radius: 2rem 2rem 0 0;
+    border: 0.2rem solid gray;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+    border: dotted black;
+    border-radius: 0 0 2rem 2rem;
+    background-color: blanchedalmond;
+    padding:0.2rem;
+    font-weight:bolder;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+li{
+    margin:0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+a{
+    color: black;
+    font-weight: 900;
+}
+a:hover{
+    color: grey;
+    font-size: 3.5rem;
+    border: solid white;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color:black;
+}

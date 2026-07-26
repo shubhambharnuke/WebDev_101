@@ -1,0 +1,19 @@
+p{
+    /* ABSOLUTE sizing:  */
+        font-size: 32px;                        /*prefer to keep text-size relative,no absolute */
+        border: 2px dashed red;
+    /* relative sizing:  */ 
+        width: 50%;                             /*50% relavent to its parent  */
+        font-size: 2rem;                        /*rem revers to relative to the browsers standard text size  */
+        font-size: 2em;                         /*em refers to size relative to the parents size */
+        /* em is used over rem for padding, margin, buttons */
+
+        width: 100vw;  /*use % instead of vw */
+        min-height: 100vh  
+
+
+
+
+
+
+}
