@@ -1,29 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    padding: 5% 10%;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  min-height: 200vh;
 }
 
-ol {
-    list-style-type:upper-roman;
-    list-style-type: disc;
-}
-ul{
-    list-style-type: square;
-    text-align: center;
-    list-style-position:outside;
-    color: grey;
-    line-height: 1.7;
-    /* list-style-image:  url(/USES/image1.jpg) ; */
+.outer-container {
+  border: 3px dashed #000;
+  width: 75vw;
+  height: 85vh;
+  margin: 40px auto;
+  position: relative ;
 }
 
-::marker {
-    color: black;
-    font-family:fantasy;
-    font-size: 1em;
-    content: "not";
-
+.inner-container {
+  border: 2px solid #00f;
+  width: 40vw;
+  height: 50vh;
+  margin: 200px auto;
+             /*will pick the nearest parent containner */
 }
 
+.box {
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.absolute {
+    background-color: #00f;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    /*top=0 and left=0 are standard values /positions*/
+    
+}
+
+.relative {
+    background-color: orange;
+    position: absolute;
+    /*top=0 and left=0 are standard values /positions*/
+    top: 300px;
+    left: 100px;
+}

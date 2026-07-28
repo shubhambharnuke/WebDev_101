@@ -1,0 +1,69 @@
+/* BODY:-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <link rel="stylesheet" href="/USES/css.css">
+</head>
+<body>
+    <section>
+        <div class="block left"> Float</div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut cum, voluptatum similique ipsum numquam alias esse neque architecto perspiciatis repudiandae aliquam ex aspernatur unde fugit sit, eligendi dolorem reiciendis. Molestiae!</p>
+    </section>
+    <div class="clear"></div>
+    <p>Perspiciatis fuga iure similique tempora commodi deleniti vero, repellat exercitationem, vitae quia consequatur minus, itaque unde laboriosam recusandae obcaecati enim laudantium. Deleniti sint minus harum unde impedit est corporis! Facilis.</p>
+    <p>Eveniet sed eligendi omnis repellendus assumenda eaque possimus alias reprehenderit quaerat deserunt quidem, corporis ab ut quae in reiciendis, dolores tempore qui velit excepturi odit commodi mollitia molestias. Minima, consectetur?</p>
+    <div class="block right">FLOAT</div>
+    <p>Accusamus, fugit facilis voluptate harum quis porro. Eveniet iste consequatur hic vel? Amet et impedit officia quaerat in dolores similique magni eius quos perspiciatis nihil, eaque commodi est nam eum?</p>
+    <p>Dolorum neque consectetur asperiores sint veniam cum delectus omnis laudantium sed, rem nam tempora necessitatibus saepe enim! Ex voluptas optio vero rerum exercitationem, sequi maxime, deleniti eaque veniam aperiam laborum.</p>
+
+</body>
+
+</html> */
+
+/* CSS:- 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 1rem;
+    font-size: 2rem;
+    font-family:"ROBOTO",sans-serif;
+}
+.block{
+    width: 25vw;
+    height: 25vw;
+    background-color: grey;
+    color: black;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    margin-right: 1rem;
+}
+.right{
+    float: right;
+    margin-right: 1rem;
+
+}
+.clear{
+    clear: both;
+}
+
+
+section {
+    background-color: black;
+    color: grey;
+    border: 1px solid lightsteelblue ;
+    padding: 1rem;
+    display: flow-root ;
+} */
+

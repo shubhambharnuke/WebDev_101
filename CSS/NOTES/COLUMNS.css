@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Columns</title>
+    <link rel="stylesheet" href="/USES/css.css">
+</head>
+
+<body>
+    <section class="Columns">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius doloremque illo beatae perferendis assumenda quidem consectetur tempora repellendus rerum.</p>
+        <p>Alias harum cupiditate ut minima exercitationem magni assumenda perspiciatis porro corporis delectus consequuntur soluta sequi, beatae aperiam quaerat nostrum ipsam?</p>
+        <!-- <h2>Next Topic</h2> -->
+        <p class="quote">&#10077;Where's my rug, man?&#10078; <span class="nowrap">&#8212;The Dude</span></p>
+        <p>Labore, doloribus. Neque dolores fugit voluptatum, ipsa enim cupiditate, voluptas dolor architecto laboriosam voluptatem animi accusamus nesciunt nulla aspernatur rem.</p>
+        <p>Dolorem ducimus architecto obcaecati. Harum accusamus quisquam iste eligendi, cumque quas. Iure odio veritatis possimus dolorem assumenda voluptatibus nemo repellat?</p>
+    </section>
+    <p>Quia labore quisquam laborum eius praesentium molestias nostrum porro itaque voluptates. Vel recusandae explicabo amet cumque porro officia facere aliquid.</p>
+</body>
+
+</html> */
+
+body {
+    font-size: 1.5rem;
+    font-family:"Roboto",sans-serif;
+}
+
+.Columns {
+    columns: 4 250px; /*divides into 4 columns each of minimum 250px width*/
+    column-rule: 3px solid black; /*adds lines btw columns*/
+    column-gap: 5rem;
+}
+.Columns p {
+    margin-top: 0;
+}
+.Columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    break-inside: avoid;        /*wont split the header into 2 columns*/
+    break-before: column;       /*keeps the header at the top of the column */
+}
+
+.Columns .quote {
+    margin-top: 2rem ;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    column-span: all ;          /* line spreads accross all the columns*/
+}
+.nowrap{
+    white-space: nowrap ;       /*dosent let the selected line to get divided into 2 different levels */
+}
