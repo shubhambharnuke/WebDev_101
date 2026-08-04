@@ -6,9 +6,65 @@
   box-sizing: border-box;
 }
 
-body {
+img { display: block;}
+
+/*UTILITY CLASSES*/
+
+.nowrap {
+  white-space: nowrap;
+}
+.offscreen {
+  position: absolute;
+  left: -100000px;
+}
+
+/*END UTILITY CLASSES*/
+/* body {
   font-family: "Nunito", sans-serif;
   min-height: 100vh;
+  background-color: aliceblue;
+  background-image: url(/USES/image/image1.png),linear-gradient(to bottom,steelblue,white);
+  background-repeat: repeat-x,no-repeat;
+  background-position: top center;
+  background-size: 30%,auto ;
+
+} */
+
+.container{
+  background-color: hsla(0, 0%, 0%, 0.8);
+  
+}
+.hero{
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: rgb(251,210, 156);
+  background-image: url(/USES/image/image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1{
+  font-size: 500%;
+  color:white;
+  text-shadow: 3px 3px 5px black ;
+
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img{
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double black;
+  border-radius: 300px;
 }
 
 .example {
@@ -20,4 +76,16 @@ body {
 .example img {
   width: 25%;
   height: auto;
+}
+
+.clip{
+  text-align: center;
+  font-weight: 800;
+  font-size: 15rem;
+  text-align: center;
+  background-image: url(/USES/image/image6.png);
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  color:hsla(0, 0%, 0%, 0.5);
 }
