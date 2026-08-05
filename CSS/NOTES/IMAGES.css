@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Images</title>
+    <link rel="stylesheet" href="/USES/css.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <section class="hero">
+            <figure class="profile-pic-figure">
+                <img src="/USES/image/image5.png" alt="profile-picture" title="MY PROFILE PICTURE" width="800" height="800">
+                <figcaption class="offscreen">JANE DOE</figcaption>
+            </figure>
+            <h1 class="h1">
+                <span class="nowrap"> Hello👋 </span>
+                <span class="nowrap"> I'm Jane</span>
+            </h1>
+        </section>
+    </div> -->
+    <!-- <section class="example">
+        <img src="/USES/image/image3.png" alt="pat_1" width="200" height="200">
+    </section> -->
+    <section>
+        <p class="clip">JHAND</p>
+    </section>
+</body>
+
+</html>
+
+/*css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img { display: block;}
+
+/*UTILITY CLASSES*/
+
+.nowrap {
+  white-space: nowrap;
+}
+.offscreen {
+  position: absolute;
+  left: -100000px;
+}
+
+/*END UTILITY CLASSES*/
+/* body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: aliceblue;
+  background-image: url(/USES/image/image1.png),linear-gradient(to bottom,steelblue,white);
+  background-repeat: repeat-x,no-repeat;
+  background-position: top center;
+  background-size: 30%,auto ;
+
+} */
+
+.container{
+  background-color: hsla(0, 0%, 0%, 0.8);
+  
+}
+.hero{
+  border-bottom: 2px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+
+  background-color: rgb(251,210, 156);
+  background-image: url(/USES/image/image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1{
+  font-size: 500%;
+  color:white;
+  text-shadow: 3px 3px 5px black ;
+
+}
+
+.profile-pic-figure {
+  width: 35%;
+}
+
+.profile-pic-figure img{
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border: 5px double black;
+  border-radius: 300px;
+}
+
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid red;
+}
+
+.example img {
+  width: 25%;
+  height: auto;
+}
+
+.clip{
+  text-align: center;
+  font-weight: 800;
+  font-size: 15rem;
+  text-align: center;
+  background-image: url(/USES/image/image6.png);
+  background-size: 100%;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  color:hsla(0, 0%, 0%, 0.5);
+}
