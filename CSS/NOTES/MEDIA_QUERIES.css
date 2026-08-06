@@ -1,0 +1,11 @@
+/*essential for enabling media queries 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+*/
+
+
+@media screen and (min-width:481px) /*for breakpoint we can also use:- 1.orientation:landscape, 2.min-aspect-ratio:16/9*/
+{
+  
+}
+
+
